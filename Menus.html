@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial=scale=1">
+        <title>hotel</title>
+        <style>
+            nav{
+                background-color: aliceblue;
+            }
+            nav ul{
+                list-style: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+            }
+            ul li{
+                float: left;
+            }
+            ul li a{
+                color: black;
+                display: block;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 18px;
+            }
+            a:hover{
+                background-color: rgb(98, 148, 148);
+            }
+            header{
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               font-size: 45px;
+            }
+            h1{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            }
+            p{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 20px;
+            }
+            * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        </style>
+    </head>
+    <header>
+        <center>
+            <font color="black">Fine Restaurant</font>
+        </center>
+    </header><br>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Details.html">Details</a></li>
+            <li><a href="Menus.html">Menus</a></li>
+            <li><a href="Table booking.html">Book a Table</a></li>
+            <li><a href="Contact us.html">Contact us</a></li>
+            <link rel="stylesheet" href="Menus.css">
+
+        </ul>
+    </nav>
+        
+    <h2><center><i>Chef's Special</center></h2></i>
+<p>Meat you here!!!</p><BR>
+
+<body>
+    <h1 class="title-shop">INDIAN Menus</h1>
+    <main class="main bd-grid">
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\fried-chicken-legs.jpg" alt="">
+            </div>
+            <div class="card__name">
+                <p>CHICKEN LOLLIPOP</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$260.00</span>
+                    <span class="card__preci card__preci--now">$220.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+          
+        <article class="card">
+            <div class="card__img">
+                
+                <img src="pics\baked-chicken-wings-asian-style-tomatoes-sauce-plate.jpg" alt="">
+            </div>
+            <div class="card__name">
+                <p>CHICKEN GRILL</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$2900.00</span>
+                    <span class="card__preci card__preci--now">$260.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+  
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.avif" alt="">
+            </div>
+            <div class="card__name">
+                <p>CHICKEN TANDOORI</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                <div>
+                    <span class="card__preci card__preci--before">$300.00</span>
+                    <span class="card__preci card__preci--now">$250.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+  
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\meat-skewer-with-vegetables-isolated-white-background-ai-generative.jpg" alt="">
+            </div>
+            <div class="card__name">
+                <p>PANNER</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$300.00</span>
+                    <span class="card__preci card__preci--now">$280.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+  
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\images.jpeg" alt="">
+            </div>
+            <div class="card__name">
+                <p>PONGAL</p>
+            </div>
+
+            <div class="card__precis">
+                <div fonnt color="red"></div>
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$120.00</span>
+                    <span class="card__preci card__preci--now">$70.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\close-up-delicious-asian-food_23-2150535861.avif" alt="">
+            </div>
+            <div class="card__name">
+                <p>PRAWN GRAVY</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$250.00</span>
+                    <span class="card__preci card__preci--now">$220.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+          
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\mutton-biryani-served-golden-dish-isolated-dark-background-side-view-indian-food_689047-2129.avif" alt="">
+            </div>
+            <div class="card__name">
+                <p>CHICKEN GRAVY</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$150.00</span>
+                    <span class="card__preci card__preci--now">$120.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\images (1).jpeg" alt="">
+            </div>
+            <div class="card__name">
+                <p>NANDU GRAVY</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$200.00</span>
+                    <span class="card__preci card__preci--now">$160.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\delicious-fresh-meat-vegetable-cutlets-with-spices-herbs-black-plate-dark-concrete-background_73989-34736.avif" alt="">
+            </div>
+            <div class="card__name">
+                <p>MUTTON KOLA URUNDAI</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$250.00</span>
+                    <span class="card__preci card__preci--now">$220.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article>
+
+
+        <article class="card">
+            <div class="card__img">
+                <img src="pics\uthapam.jpeg" alt="">
+            </div>
+            <div class="card__name">
+                <p>UTHAPAM</p>
+            </div>
+            <div class="card__precis">
+                <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                
+                <div>
+                    <span class="card__preci card__preci--before">$90.00</span>
+                    <span class="card__preci card__preci--now">$60.00</span>
+                </div>
+                <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </article><br><br>
+        </main>
+        <h1 class="title-shop">CONTINENTAL & ITALIAN Menus</h1>
+        <main class="main bd-grid">
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\front-view-burger-stand.jpg" alt="">
+                </div>
+                <div class="card__name">
+                    <p>CHICKEN BURGER</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$250.00</span>
+                        <span class="card__preci card__preci--now">$180.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+              
+            <article class="card">
+                <div class="card__img">
+                    
+                    <img src="pics\corn.avif" alt="">
+                </div>
+                <div class="card__name">
+                    <p>SWEET CORN CHEESE BALLS</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$120.00</span>
+                        <span class="card__preci card__preci--now">$100.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+      
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\braccoli sand.jpeg" alt="">
+                </div>
+                <div class="card__name">
+                    <p>BROCCOLI SANDWICH</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    <div>
+                        <span class="card__preci card__preci--before">$150.00</span>
+                        <span class="card__preci card__preci--now">$100.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+      
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\crushed braccoli.jpeg" alt="">
+                </div>
+                <div class="card__name">
+                    <p>CRUSTED BROCCOLI</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$100.00</span>
+                        <span class="card__preci card__preci--now">$50.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+      
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\pasta-with-cheese.jpg" alt="">
+                </div>
+                <div class="card__name">
+                    <p>WHITE SAUCE PASTA</p>
+                </div>
+    
+                <div class="card__precis">
+                    <div fonnt color="red"></div>
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$250.00</span>
+                        <span class="card__preci card__preci--now">$230.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+    
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\backed potato.avif" alt="">
+                </div>
+                <div class="card__name">
+                    <p>BACKED POTATO</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$210.00</span>
+                        <span class="card__preci card__preci--now">$190.O0</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article><br><br>
+            </main>
+
+            <h1 class="title-shop">CHINESE Menus</h1>
+            <main class="main bd-grid">
+                <article class="card">
+                    <div class="card__img">
+                        <img src="pics\corn soup.avif" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>SWEET CORN SOUP</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                        
+                        <div>
+                            <span class="card__preci card__preci--before">$300.00</span>
+                            <span class="card__preci card__preci--now">$125.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+                  
+                <article class="card">
+                    <div class="card__img">
+                        
+                        <img src="pics\drangon.avif" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>DRAGON CHICKEN</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                        
+                        <div>
+                            <span class="card__preci card__preci--before">$350.00</span>
+                            <span class="card__preci card__preci--now">$330.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+          
+                <article class="card">
+                    <div class="card__img">
+                        <img src="pics\honey potato.avif" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>HONEY CHILLI POTATO</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                        <div>
+                            <span class="card__preci card__preci--before">$260.00</span>
+                            <span class="card__preci card__preci--now">$245.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+          
+                <article class="card">
+                    <div class="card__img">
+                        <img src="pics\srice.avif" alt="">
+                    </div>
+                    <div class="card__name">
+                        <P>SCHEZWAN CHICKEN RICE</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                        
+                        <div>
+                            <span class="card__preci card__preci--before">$200.00</span>
+                            <span class="card__preci card__preci--now">$180.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+          
+                <article class="card">
+                    <div class="card__img">
+                        <img src="pics\crispy-fried-bacorn flitters.avif" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>CORN FRITTERS</p>
+                    </div>
+        
+                    <div class="card__precis">
+                        <div fonnt color="red"></div>
+                        <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                        
+                        <div>
+                            <span class="card__preci card__preci--before">$120.00</span>
+                            <span class="card__preci card__preci--now">$90.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article>
+        
+                <article class="card">
+                    <div class="card__img">
+                        <img src="pics\momo.avif" alt="">
+                    </div>
+                    <div class="card__name">
+                        <p>MOMO</p>
+                    </div>
+                    <div class="card__precis">
+                        <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                        
+                        <div>
+                            <span class="card__preci card__preci--before">$320.00</span>
+                            <span class="card__preci card__preci--now">$250.00</span>
+                        </div>
+                        <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                    </div>
+                </article><br><br>
+                </main>
+    
+            
+        </article>
+        <h1 class="title-shop">DESERT Menus</h1>
+        <main class="main bd-grid">
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\brownie.jpeg" alt="">
+                </div>
+                <div class="card__name">
+                    <p>FUDGY CHIP BROWNIE</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$120.00</span>
+                        <span class="card__preci card__preci--now">$105.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+              
+            <article class="card">
+                <div class="card__img">
+                    
+                    <img src="pics\payasam.avif" alt="">
+                </div>
+                <div class="card__name">
+                    <p>PAYASAM</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$150.00</span>
+                        <span class="card__preci card__preci--now">$100.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+      
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\tukda.jpeg" alt="">
+                </div>
+                <div class="card__name">
+                    <p>SHAHI TUKDA</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    <div>
+                        <span class="card__preci card__preci--before">$300.00</span>
+                        <span class="card__preci card__preci--now">$230.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+      
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\ice.jpeg" alt="">
+                </div>
+                <div class="card__name">
+                    <P>PUTTU ICECREAM</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$550.00</span>
+                        <span class="card__preci card__preci--now">$460.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+      
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\crispy-fried-bacorn flitters.avif" alt="">
+                </div>
+                <div class="card__name">
+                    <p>CORN FRITTERS</p>
+                </div>
+    
+                <div class="card__precis">
+                    <div fonnt color="red"></div>
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$180.00</span>
+                        <span class="card__preci card__preci--now">$120.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+    
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\kunafa.avif" alt="">
+                </div>
+                <div class="card__name">
+                    <p>KUNAFA</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$130.00</span>
+                        <span class="card__preci card__preci--now">$120.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card__img">
+                    <img src="pics\cheesecake.jpeg" alt="">
+                </div>
+                <div class="card__name">
+                    <p>BISCOFF CHEESECAKE</p>
+                </div>
+                <div class="card__precis">
+                    <a href="" class="card__icon" ><ion-icon name="heart-outline"></ion-icon></a>
+                    
+                    <div>
+                        <span class="card__preci card__preci--before">$190.00</span>
+                        <span class="card__preci card__preci--now">$160.00</span>
+                    </div>
+                    <a href="" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
+                </div>
+            </article><br><br>
+            </main>
+
+        
+    </article>
+
+
+
+
+      
+
+
+
+
+       
+    </main>
+      <footer>
+        <a href="Book a Table.html">Book your CHOICE </a> 
+      </footer>
+    <!-- ICONS -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="sam.css">
+  </body>
+  
+
